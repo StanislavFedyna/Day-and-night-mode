@@ -1,104 +1,123 @@
-body{
-  margin: 0px;
-  padding: 0px;
-  background-color:royalblue;
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: royalblue;
 }
-#main{
-  height: 100vh;
-  width: 100%;
-  position: absolute;
-  overflow: hidden;
+#main
+{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
 }
-#message{
-  font-family: fantasy;
-  font-size: 5em;
-  color:white;
-  line-height: 70px;
-  position: absolute;
-  top:30%;
-  left: 10%;
+#message
+{
+    font-family: fantasy;
+    font-size: 5em;
+    line-height: 70px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: white;
 }
-#btn{
-  height: 35px;
-  width: 150px;
-  background-color:black;
-  font-family: fantasy;
-  font-size: 15px;
-  color:white;
-  text-align: center;
-  line-height: 35px;
-  position: absolute;
-  top:55%;
-  left: 10%;
-  cursor: pointer;
+#btn
+{
+    font-family: fantasy;
+    font-size: 15px;
+    line-height: 35px;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    background-color: black;
 }
-#btn::before{
-  content: '';
-  position: absolute;
-  height: 3px;
-  width: 90px;
-  background-color:black;
-  top:50%;
-  left: 100%;
+#btn::before
+{
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 90px;
+    height: 3px;
+    content: '';
+    background-color: black;
 }
-.block{
-  width: 310px;
-  height: 210px;
-  background-color: royalblue;
-  position: absolute;
-  transform: rotateX(55deg) rotateY(0deg) rotateZ(45deg);
-  box-shadow: 13px 12px 15px -5px rgba(0,0,0,.3);
-  cursor: pointer;
+.block
+{
+    position: absolute;
+    width: 310px;
+    height: 210px;
+    cursor: pointer;
+    transform: rotateX(55deg) rotateY(0deg) rotateZ(45deg);
+    background-color: royalblue;
+    box-shadow: 13px 12px 15px -5px rgba(0,0,0,.3);
 }
-.block img{
-  width: 310px;
-  height: 210px;
-  transition: all .3s;
+.block img
+{
+    width: 310px;
+    height: 210px;
+    transition: all .3s;
 }
-.block:hover img{
-  transform: translate(-3%,-3%);
+.block:hover img
+{
+    transform: translate(-3%,-3%);
 }
-.b1{
-  top:-9%;
-  right: -7%;
+.b1
+{
+    top: -9%;
+    right: -7%;
 }
-.b2{
-  top:6%;    
-  right: 5%; 
+.b2
+{
+    top: 6%;
+    right: 5%;
 }
-.b3{
-  top:21%;
-  right: 17%;
+.b3
+{
+    top: 21%;
+    right: 17%;
 }
-.b4{
-  top:36%;
-  right: 29%;
+.b4
+{
+    top: 36%;
+    right: 29%;
 }
-.b5{
-  top:51%;
-  right: 41%;
+.b5
+{
+    top: 51%;
+    right: 41%;
 }
-.b6{
-  top:20%;
-  right: -18%;
+.b6
+{
+    top: 20%;
+    right: -18%;
 }
-.b7{
-  top:35%;
-  right: -6%;
+.b7
+{
+    top: 35%;
+    right: -6%;
 }
-.b8{
-  top:50%;
-  right: 6%;
+.b8
+{
+    top: 50%;
+    right: 6%;
 }
-.b9{
-  top:65%;
-  right: 18%;
+.b9
+{
+    top: 65%;
+    right: 18%;
 }
-.b10{
-  top:65%;
-  right: -17%;
+.b10
+{
+    top: 65%;
+    right: -17%;
 }
-.b11{
-  top:79%;
-  right: -5%;
+.b11
+{
+    top: 79%;
+    right: -5%;
 }
